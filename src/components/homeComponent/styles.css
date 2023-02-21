@@ -1,0 +1,74 @@
+.heading {
+  text-align: center;
+  font-family: roboto;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.desc {
+  text-align: center;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 55px;
+}
+.btn {
+  text-align: center;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.explore {
+  color: white;
+  background: plum;
+  border-radius: 30px;
+  height: 30px;
+  border-color: black;
+}
+.explore:hover {
+  opacity: 0.5;
+}
+.paris {
+  background-color: grey;
+  height: 40px;
+  padding-top: 10px;
+}
+.figure {
+  display: inline;
+  padding-right: 8px;
+  border-radius: 50%;
+  background-color: red;
+  border: 3px solid red;
+  position: absolute;
+  right: 190px;
+  top: 0px;
+}
+.btn1 {
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  position: relative;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.images-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(57, 57, 57);
+  padding: 20px;
+  color: white;
+}
+.img-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
